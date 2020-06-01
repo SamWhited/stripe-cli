@@ -15,6 +15,8 @@ var Events = map[string]string{
 	"charge.failed":                            "/charge.failed.json",
 	"charge.refunded":                          "/charge.refunded.json",
 	"charge.succeeded":                         "/charge.succeeded.json",
+	"checkout.session.async_payment_failed":    "/checkout.session.async_payment_failed.json",
+	"checkout.session.async_payment_succeeded": "/checkout.session.async_payment_succeeded.json",
 	"checkout.session.completed":               "/checkout.session.completed.json",
 	"customer.created":                         "/customer.created.json",
 	"customer.deleted":                         "/customer.deleted.json",
